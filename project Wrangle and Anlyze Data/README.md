@@ -1,28 +1,31 @@
-Introduction
-Real-world data rarely comes clean. Using Python and its libraries, we will gather
+#Introduction
+###Real-world data rarely comes clean. Using Python and its libraries, we will gather
 data from a variety of sources and in a variety of formats, assess its quality and
 tidiness, then clean it. This is called data wrangling. We will document our
 wrangling efforts, plus showcase them through analyses and visualizations using
 Python (and its libraries) and/or SQL.
-The dataset that we will be wrangling (and analyzing and visualizing) is the tweet
+
+###The dataset that we will be wrangling (and analyzing and visualizing) is the tweet
 archive of Twitter user @dog_rates, also known as We Rate Dogs. We Rate Dogs
 is a Twitter account that rates people's dogs with a humorous comment about the
 dog.
-The purpose and goal of this project is to create a trustworthy and interesting
+###The purpose and goal of this project is to create a trustworthy and interesting
 analyses and Visualization based on the wrangled data
 Project Details
-This part of the project is divided into three steps, which are as follows:
-● Data Gathering.
-● Data Assessment.
-● Data Cleaning
-Data Gathering
+
+###This part of the project is divided into three steps, which are as follows:
+>- ● Data Gathering.
+>- ● Data Assessment.
+>- ● Data Cleaning.
+
+###Data Gathering
 This project requires working on three different datasets, which are acquired as
 follows:
-● Twitter archive: the twitter_archive_enhanced dataset is a csv file and was
+>- ● Twitter archive: the twitter_archive_enhanced dataset is a csv file and was
 downloaded manually, which was provided in Udacity’s classroom.
-● Tweet image predictions: This is a tsv file. It is hosted on Udacity’s servers, and
+>- ● Tweet image predictions: This is a tsv file. It is hosted on Udacity’s servers, and
 was downloaded programmatically using the Requests library.
-● Twitter API and JSON: Using library, we were able to scrape data from
+>- ● Twitter API and JSON: Using library, we were able to scrape data from
 theTwitter account. We looped through all the available tweets and queried
 Twitter’s APIs along with the tweet ids to get each tweet’s JSON data. After that,
 we extracted the data we needed, which were the number of likes, number of
