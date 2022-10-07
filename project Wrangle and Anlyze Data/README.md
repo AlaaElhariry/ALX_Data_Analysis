@@ -1,22 +1,23 @@
 #Introduction
-###Real-world data rarely comes clean. Using Python and its libraries, we will gather
+##Real-world data rarely comes clean.
+Using Python and its libraries, we will gather
 data from a variety of sources and in a variety of formats, assess its quality and
 tidiness, then clean it. This is called data wrangling. We will document our
 wrangling efforts, plus showcase them through analyses and visualizations using
 Python (and its libraries) and/or SQL.
 
-###The dataset that we will be wrangling (and analyzing and visualizing) is the tweet
+##The dataset that we will be wrangling (and analyzing and visualizing) is the tweet
 archive of Twitter user @dog_rates, also known as We Rate Dogs. We Rate Dogs
 is a Twitter account that rates people's dogs with a humorous comment about the
 dog.
-###The purpose and goal of this project is to create a trustworthy and interesting
+##The purpose and goal of this project is to create a trustworthy and interesting
 analyses and Visualization based on the wrangled data
 Project Details
 
 ###This part of the project is divided into three steps, which are as follows:
->- ● Data Gathering.
->- ● Data Assessment.
->- ● Data Cleaning.
+>-  Data Gathering.
+>-  Data Assessment.
+>-  Data Cleaning.
 
 ###Data Gathering
 This project requires working on three different datasets, which are acquired as
